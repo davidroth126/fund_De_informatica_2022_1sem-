@@ -1,0 +1,35 @@
+"""# ejercicio 1
+palabra = input("cadena")
+print (len(palabra))"""
+#ejercicio 2 
+"""palabra = input("palabra en mayuscula")
+print (palabra[4] + palabra[5])"""
+#ejercicio 3
+"""nombre_y_apellido = input ("Nombre y Apellido")
+print ("Hola ",nombre_y_apellido)""""" 
+#ejercicio 4
+"""Nombre = input ("Nombre")
+apellido1 = input("Primer apellido")
+apellido2 = input("Segundo apellido")
+print (str.upper(Nombre[0] + apellido1[0] + apellido2[0]))"""""
+#ejercicio 5
+"""numero1= int(input("insertar primer numero"))
+numero2= int(input("insertar segundo numero"))
+numero3= int(input("insertar tercer numero"))
+print ((numero1 + numero2 + numero3)/ 3)"""""
+#ejercicio 6 
+"""Cantidad_De_Minutos = int(input("Cantidad de Minutos"))
+Horas = (Cantidad_De_Minutos/60) 
+Minutos = ((Cantidad_De_Minutos - Horas) * 60) 
+print ( str(Horas) + "Horas " + "y " + str(Minutos) + "minutos.")"""""
+# ejercicio 7 
+"""sueldo = int(input("Sueldo base"))
+venta1 = int(input("monto de la primer venta"))
+venta2= int(input("monto de la segunda venta"))
+venta3 = int(input("monto de la tercer venta"))
+venta4 = int(input("monto de la cuarta venta"))
+comision = (0.10 * venta1) + (0.10 * venta2) + (0.10 * venta3) + (0.10 * venta4)
+sueldo_total = str(sueldo) + str(comision)
+print ("El dinero total que ganara este mes es de: ",(sueldo_total))"""""
+# ejercicio 8 
+int(input(""))

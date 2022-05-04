@@ -1,0 +1,149 @@
+"""def longitud(string):
+    return len(string)
+
+print(longitud("hola"))"""
+
+"""def imprimir_quinta():
+    string = input("decime una variable")
+    if len(string) >= 6: 
+     return string.upper()[5] + string.upper()[6]
+    else:
+     print("su cadena no tiene suficientes caracteres")
+
+print(imprimir_quinta())"""
+
+"""def nombre_y_apellido():
+    string = input("Nombre y apellido")
+    print("hola " + string)
+
+print (nombre_y_apellido)"""""
+
+"""def nombre_y_dos_iniciales():
+    nombre = input ("Nombre ")
+    apell1 = input ("primer apellido ")
+    apell2 = input ("Segundo apellido ")
+    return print((nombre.upper()[0]) + (apell1.upper()[0]) + (apell2.upper()[0]))
+print(nombre_y_dos_iniciales()) """
+
+"""def promedio():
+    num1 = int(input("un numero : "))
+    num2 = int(input("segund numero : "))
+    num3 = int(input("tercer numero : "))
+    resultado = (num1 + num2 + num3) / 3
+    return print(resultado)
+
+print (promedio()) """""   
+
+"""def minutos():
+    cantidad_mins = int(input("cantidad de minutos: "))
+    tiempo = ( cantidad_mins // 60, "horas y ", (cantidad_mins%60),"minutos")
+    return print(tiempo)
+
+print(minutos())  """
+
+"""def dinero():
+    sueldo_base = int(input("Monto de sueldo base: "))
+    venta1 = int(input("monto de venta 1: "))
+    venta2 = int(input("monto de venta 2: "))
+    venta3 = int(input("monto de venta 3: "))
+    venta4 = int(input("monto de venta 4: "))
+    ventas_totales = venta1 + venta2 + venta3 + venta4
+    comision_venta = ventas_totales * 0.10
+    sueldo_total = sueldo_base + comision_venta
+    return print("El total de dinero de este mes es: " + str(sueldo_total))
+
+print(dinero())    """""
+
+"""def nota_final():
+    notas_correctas = int(input("Cuantas rtas correctas"))
+    notas_incorrectas = int(input("Cuantas rtas incorrectas"))
+    notas_blanco = int(input("Cuantas rtas en blanco"))
+    nota_final = (notas_correctas * 4)  + (notas_incorrectas * -1 )
+    return(print(nota_final))
+print(nota_final())    """""
+
+#python intro 2
+
+
+
+"""def mayus_o_min():
+    cadena = input("Cadena: ")
+    if cadena[0] == cadena.upper()[0]: 
+     print("es mayuscula")
+    else:
+     print("Es minuscula")
+
+print(mayus_o_min())     """""
+
+""""def positivo_negativo():
+   numero = int(input("Escribi un numero: "))  
+   par = numero % 2 == 0 
+   if numero > 0 and par:
+        print("numero positivo y par") 
+   elif numero == 0:
+        print("es cero y par")
+   elif numero < 0 and par:
+        print("Numero negativo y par")  
+   elif numero > 0 and not par:
+        print("numero positivo y es impar") 
+   elif numero < 0 and not par:
+        print("Numero negativo y es impar")      
+
+
+print(positivo_negativo())     """""
+
+"""def uno_al_seis():
+    numero = int(input("numero del 1 al 6 "))
+    
+    if numero > 6 or numero < 1:
+        print ("numero ingresado incorrecto")
+    elif numero == 1:
+        return(print("La cara opuesta es 6")) 
+    elif numero == 2:
+        return (print("La cara opuesta es 5")) 
+    elif numero == 3:
+         return (print("La cara opuesta es 4"))
+    elif numero == 4:
+         return (print("La cara opuesta es 3"))
+    elif numero == 3:
+         return (print("La cara opuesta es 6"))     
+
+print(uno_al_seis())"""""
+
+"""def costo_entrega():
+    costo_servicio = {"America del sur": 10,"america central":15,"america del norte":18,
+    "europa":24,"asia":30}
+    lugar = input("Destino del paquete")
+    costo_Envio = (costo_servicio[lugar] * peso)
+    peso = int(input("Indicar peso del paquete : "))
+    if peso <= 5:
+        print(costo_Envio)
+    else:
+        print("exceso de peso")
+
+print (costo_entrega()) """"" 
+
+"""cadena1 = input("primera cadena")
+cadena2 = input("seg cadena")
+cadena3 = input("ter cadena")
+cadena4 = input("cuar cadena")
+cadena5 = input("quin cadena")
+lista_cadenas = []
+lista_cadenas.append(cadena1)
+lista_cadenas.append(cadena2)
+lista_cadenas.append(cadena3)
+lista_cadenas.append(cadena4)
+lista_cadenas.append(cadena5)
+
+print(lista_cadenas)
+lista_invertida = lista_cadenas[::-1]
+print(lista_invertida)"""""
+
+def lista_negativo ():
+  hasta_negativo = []
+  numero = int(input("Agregar numero a la lista"))
+  while numero > 0:
+     hasta_negativo.append(numero)
+  print (hasta_negativo)     
+
+print(lista_negativo())
